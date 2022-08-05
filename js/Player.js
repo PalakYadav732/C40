@@ -5,6 +5,7 @@ class Player {
     this.positionX = 0;
     this.positionY = 0;
     this.rank = 0;
+    this.fuel = 185;
     this.score = 0;
   }
 
@@ -22,8 +23,7 @@ class Player {
       positionX: this.positionX,
       positionY: this.positionY,
       rank: this.rank,
-      score: this.score,
-      life: this.life
+      score: this.score
     });
   }
 
